@@ -52,7 +52,6 @@ const clubCompatibilityDictionary = {
 
 }; 
 
-
 const descriptionDictionary = {
 
     d1: {start:0, end: 10, description: "Although our sophisticated algorithms say that it won't work out, why not give it a shot? We're sure you can beat probability"},
@@ -83,6 +82,8 @@ async function getFinalPercent() {
 
     let club1 = document.getElementById("clubOneSelect");
     let club2 = document.getElementById("clubTwoSelect");
+
+    console.log(club2.value)
 
     let percent = await getNamePercent(name1, name2);
     let club_percent = clubCompatibilityDictionary[club1.value][club2.value];

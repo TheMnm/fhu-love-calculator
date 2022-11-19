@@ -24,13 +24,21 @@ body {
     display: grid;
     align-items: center;
     min-width: 170px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.3rem;
 
+}
+
+.container {
+    padding-top: 50px;
 }
 
 .form-floating {
 
     margin-bottom: 30px;
-    max-width: 70%;
+    max-width: 75%;
+    margin-top: 30px;
     margin-left: auto; 
     margin-right: auto;
     font-family: 'Amatic SC', 'Times New Roman';
@@ -49,7 +57,7 @@ label {
 h1 {
     background-color: rgb(148,0,0);
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     font-family: 'Dancing Script', 'sans serif';
     color: white;
 }
@@ -65,9 +73,12 @@ h2 {
 button {
     font-family: 'Dancing Script', 'Sans Serif';
     text-align: center;
-    font-size: 2em;
     border: none;
     background-color: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.3rem;
+   
 }
 
 
@@ -79,6 +90,10 @@ button {
     display: grid;
     align-items: center;
     min-width: 170px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.3rem;
 }
 
 
@@ -92,7 +107,7 @@ button {
     margin: auto;
     display: grid;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 
@@ -102,12 +117,13 @@ button {
     font-weight: 700;
     font-size: 2em;
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: center;
     margin: auto;
     display: grid;
     align-items: center;
+    text-align: center;
     max-width: 70%;
 
 }
